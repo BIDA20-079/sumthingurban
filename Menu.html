@@ -1,132 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Menu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
     <style>
-        body {
-          background-color: #f2f2f2;
-          font-family: Arial, sans-serif;
-        }
-        h1 {
-          text-align: center;
-        }
-        .gallery {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-        }
-        .gallery img {
-          width: 300px;
-          margin: 10px;
-          border: 2px solid #fff;
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-          transition: all 0.3s ease-in-out;
-        }
-        .gallery img:hover {
-          transform: scale(1.1);
-          border-color: #333;
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-        }
-      </style>
-    
-</head>
-<body>
-    
-
-<!-- header section starts  -->
-
-<header>
-    <style>
-        header {
-  position: top;
-  top: 0;
-  left: 100;
-  width: 100%;
-  background-color: transparent;
-  z-index: 999;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  background-color: transparent;
-  color: #fff;
-  width: 100%;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  margin: 0 10px;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Change the background color on scroll */
-header.scrolled {
-  background-color: #333;
-  transition: background-color 0.3s ease-in-out;
-
-}
-.home-btn {
-  display: block;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #333;
-  color: #fff;
-  padding: 20px 20px;
-  text-decoration: none;
-  border-radius: 10px;
-  font-size: 20px;
-}
-
-.home-btn:hover {
-  background-color: #555;
-}
-    </style>
-
-    <input type="checkbox" name="" id="toggler">
-    <label for="toggler" class="fas fa-bars"></label>
-
-    <a href="#" class="logo"><span></span></a>
-
-    <a href="index.html" class="home-btn">Home</a>
-
-    
-<!-- header section ends -->
-
-<!-- home section starts  -->
-    
-    
-    </div>
-  </head>
-  <body style="background-color:rgb(233, 225, 225); font-family: Arial, sans-serif;">
-    <h1 style="text-align: center;">MENU</h1>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-      <img src="Menu 1.jpg" alt="Image 1" style="width: 300px; margin: 10px;">
-      <img src="Menu 2.jpg" alt="Image 2" style="width: 300px; margin: 10px;">
-      <img src="MENU 3.jpg" style="width: 300px; margin: 10px;">
+      /* Add some padding to the body */
+      body {
+        padding: 20px;
+      }
       
-    </div>
+      /* Style the images */
+      img {
+        display: block; /* Remove any unwanted spaces between images */
+        margin: 0 auto; /* Center the images */
+        max-width: 100%;
+        height: auto;
+        width : 300px;
+  
+      }
+      
+      /* Style the home button */
+      button {
+        display: block;
+        margin: 20px auto; /* Add some margin to separate from images */
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* Change button color on hover */
+      button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Menu 1.jpg">
+    <img src="Menu 2.jpg">
+    <img src="MENU 3.jpg">
+    <button class="home" onclick="window.location.href='https://bida20-079.github.io/sumthingurban/index.html';">Home</button>
   </body>
 </html>
